@@ -1,0 +1,44 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: beige;
+}
+h1{
+    color: aqua;
+}
+form{
+    background-color: white;
+    text-align: center;
+    max-width: fit-content;
+    margin: auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.322); /* the 3rd value is the blur radius*/
+}
+#textBox{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid hsla(0, 0%, 0%, 0.805);
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+button{
+    margin-top: 15px;
+    background-color: hsl(120, 100%, 40%);
+    border-radius: 4px;
+    font-size: 1em;
+    border: none;
+    padding: 10px 15px; /* 1st value is for up and down, 2nd is for the sides*/
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(120, 100%, 30%);
+}
+#result{
+    font-size: 1.25em;
+    font-weight: bold;
+}
