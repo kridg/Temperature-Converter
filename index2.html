@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <form action="">
+        <h1>Currency Converter</h1>
+        <input type="number" id="numBox" value="0"><br>
+
+        <input type="radio" id="toAUD" name="same">
+        <!-- here i added the name same so we can use the same css element for all the radio buttons -->
+        <label for="toAUD">Nepalese Rupees ➡️ Australian💲 </label> <br>
+
+        <input type="radio" id="toNRS" name="same">
+        <label for="toNRS"> Australian💲➡️ Nepalese Rupees </label> <br>
+
+        <input type="radio" id="toUSD" name="same">
+        <label for="toUSD">Nepalese Rupees ➡️ US💲 </label> <br>
+
+        <input type="radio" id="toNRS2" name="same">
+        <label for="toNRS2"> US💲➡️ Nepalese Rupees </label> <br> <br>
+
+        <button type="button" onclick="change()">Enter</button>
+
+        <p id="answer"></p>
+    </form>
+    <script src="index2.js"></script>
+</body>
+</html>

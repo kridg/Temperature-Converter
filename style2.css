@@ -1,0 +1,44 @@
+body{
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: hsla(0, 100%, 75%, 0.586);
+}
+#numBox{
+    text-align: center;
+    border-radius: 4px;
+    font-size: 1.25em;
+    border: 3px solid;
+    margin-bottom: 1em;
+    width: 150px;
+}
+form{
+    background-color: rgba(222, 184, 135, 0.257);
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 5px 5px;
+    max-width: fit-content;
+    margin: auto; /* used to center the form*/
+    padding: 15px;
+}
+label{
+    color: rgb(126, 122, 86);
+    font-weight: bold;
+    font-size: 1.25em;
+}
+button{
+    border: 0px;
+    background-color: rgb(255, 210, 142);
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px 12px;
+    font-size: 1em;
+}
+button:hover{
+    background-color: rgb(255, 188, 54);
+}
+p{
+    font-weight: bold;
+    font-size: 1.25em;
+}
